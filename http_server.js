@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World! Coding Activity 2.2 Application is running successfully.\n');
+  res.end('Application is running successfully.\n');
 });
 
 server.listen(port, () => {
